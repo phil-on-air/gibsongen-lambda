@@ -1,0 +1,22 @@
+{
+  "name": "gibsongen-lambda",
+  "version": "1.0.0",
+  "description": "Gibson text generator for AWS Lambda",
+  "main": "index.js",
+  "dependencies": {
+    "airtable": "^0.12.2"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "node test-local.js",
+    "test-generator": "node test-generator.js",
+    "package": "chmod +x deploy.sh && ./deploy.sh"
+  },
+  "keywords": ["gibson", "generator", "lambda", "airtable", "text"],
+  "author": "Phil",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
